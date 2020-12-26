@@ -12,7 +12,11 @@ export class DataBindingComponent implements OnInit {
   valorAtual: string = '';
   valorSalvo
   isMouseOver: boolean = false;
-
+  nome: string = "abc";
+  pessoa: any = {
+    nome: 'jp',
+    idade: 32
+  }
 
 
   url: string = 'http://loiane.com';
