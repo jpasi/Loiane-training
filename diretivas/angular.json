@@ -127,5 +127,10 @@
   "defaultProject": "diretivas",
   "cli": {
     "analytics": "526b8035-f1fb-4afd-ac17-526c6fdd0715"
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
   }
 }
