@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DiretivaNgIfComponent } from './diretiva-ng-if/diretiva-ng-if.component';
+import { DiretivaNgifComponent } from './diretiva-ngif/diretiva-ngif.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DiretivaNgIfComponent
+    DiretivaNgifComponent
   ],
   imports: [
     BrowserModule,
