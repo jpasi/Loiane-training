@@ -9,9 +9,11 @@ export class DiretivaNgforComponent implements OnInit {
 
   cursos: string[] = ["Angular2", "Java", "Phonegap"]; 
 
+
   constructor() { }
 
   ngOnInit(): void {
+    
     for (let i=0; i<this.cursos.length; i++){
       let curso = this.cursos[i];
     }
